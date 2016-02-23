@@ -1,13 +1,10 @@
-# "Docker - Its My Code in a Box" presentation by Tim Crowley on March 25th, 2015 at SSEUG meeting.
-
-Meeting agenda: http://srqsoftware.github.io/03-25-2015_Docker-Its_My_Code_in_a_Box/
+# "Developing Applications for Cloud Foundry / Bluemix" presentation by Tim Crowley on February 24th, 2016 at SSEUG meeting.
 
 A presentation on how Docker may revolutionize the way we develop and deploy software
 
 # Abstract
-Docker technology provides a consistent and transportable approach for building, deploying, and running software in the cloud. Docker's standardized containers can be deployed in different vendor environments in a consistent way. The containers allow the developer and the administrator to focus on best practices, instead of environment-specific dependencies. In many ways, it's become a "build once, deploy anywhere" solution for the cloud.
+Many of the current cloud offerings focus on Infrastructure as a Service (IaaS). And while there are many advantages to this approach, it places the onus on the customer to maintain things like the operating system, and various pieces of middleware. A Platform as a Service (PaaS) abstracts these responsibilities away from the developer, and defers them to the cloud provider.
 
-During this presentation, Tim will build a simple web application, and then mix and match cloud environments. Across all platforms, the development and deployment processes will be remarkably similar.
+Cloud Foundry is an open source platform which can be used as a basis for a PaaS solution. Multiple cloud providers leverage Cloud Foundry; one such provider is IBM and their Bluemix offering.
 
-
-Tim will also discuss future Docker technologies, such as Machine, Swarm, and Compose
+Tim will be describing the basics of the Cloud Foundry platform, and demonstrate how to develop, deploy, and monitor applications within Bluemix.
