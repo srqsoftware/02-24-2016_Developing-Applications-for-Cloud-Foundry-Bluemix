@@ -1,0 +1,87 @@
+/* Copyright 2010 Tim Crowley */
+body {
+	font: 75%/150% Veranda, Arial, Helvetica, sans-serif;
+	color: #000000;
+	background: #CBCBCB;
+	text-align: justify;
+	margin: 0;
+}
+
+h1 {
+	margin: 0;
+}
+
+.error {
+	color: #ff0000;
+	font-weight: bold;
+}
+
+#owrap {
+	width: 975px;
+	margin: 0 auto;
+	background: #FFFFFF;
+}
+
+#iwrap {
+	width: 975px;
+	margin: 0 auto;
+}
+
+#obanner {
+	height: 50px;
+	background: #000000 url(banner.png);
+	position: relative;
+	color: #479227;
+/*	border-bottom: dotted 1px #FFFFFF; */
+}
+
+#content {
+	margin-top: 5px;
+	width: 600px;
+	padding: 10px 10px 10px 10px;
+}
+
+#mapcontent {
+	margin-top: 5px;
+	width: 90%;
+	height: 500px;
+	padding: 10px 10px 10px 10px;
+}
+
+#mapcontent2 {
+	margin-top: 5px;
+	width: 90%;
+	height: 500px;
+	padding: 10px 10px 10px 10px;
+	display: none;
+}
+
+#minimapcontent {
+	margin-top: 5px;
+	width: 60%;
+	height: 150px;
+	padding: 10px 10px 10px 10px;
+}
+
+#fishimage {
+	width: 200px;
+	height: 100px;
+}
+
+#baitlist {
+	height: 100px;
+}
+
+#foot {
+	height: 20px;
+	padding-top: 0px;
+	color: #FFFFFF;
+	margin: 0;
+	background: #144500;
+	border-top: dotted 1px #333333;
+}
+
+#content h1 {
+	font-size: 18px;
+	color: #247800;
+}

@@ -1,0 +1,187 @@
+/* Copyright 2010 Tim Crowley */
+body {
+	font: 75%/150% Veranda, Arial, Helvetica, sans-serif;
+	color: #000000;
+	background: #CBCBCB;
+	text-align: justify;
+	margin: 0;
+}
+
+p {
+	font-size: 12px;
+}
+
+td {
+	font-size: 12px;
+}
+
+#menubar * {
+  margin: 0px;
+  padding: 0px;
+  font-size: 100%;
+}
+
+#menubar ul {
+	display: block;
+	background-color: #144500;
+	padding: 0px;
+	margin: 0px;
+	height: 30px;
+}
+
+#menubar ul li ul {
+  width: 165px;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+}
+
+#menubar ul li {
+	/* margin-left: 20px; */
+  float: left;
+	display: block;
+  position: relative;
+}
+
+#menubar ul li ul li {
+  width: 100%;
+  display: block;
+}
+
+#menubar ul li a {
+	padding: 5px;
+  display: block;
+	text-decoration: none;
+	color: white;
+	background-color: #144500;
+	border: 1px solid #144500;
+}
+
+#menubar ul li a:hover, #menubar ul li:hover a {
+  background: #479227;
+  color: white;
+}
+
+#menubar ul li:hover li a {
+  background: #479227;
+}
+
+#menubar ul li:hover li a:hover, #menubar ul li:hover li:hover a {
+  background: #CBCBCB;
+  display: block;
+}
+
+#menubar ul li:hover ul, #menubar ul ul li:hover ul {
+  display: block;
+}
+
+
+h1 {
+	margin: 0;
+}
+
+.error {
+	color: #ff0000;
+	font-weight: bold;
+}
+
+#owrap {
+	width: 975px;
+	margin: 0 auto;
+	background: #FFFFFF;
+}
+
+#iwrap {
+	width: 975px;
+	margin: 0 auto;
+}
+
+#obanner {
+	height: 50px;
+	background: #000000 url(banner.png);
+	position: relative;
+	color: #479227;
+/*	border-bottom: dotted 1px #FFFFFF; */
+}
+
+#content {
+	margin-top: 5px;
+	min-height: 550px;
+	width: 950px;
+	padding: 10px 10px 10px 10px;
+}
+
+.contentLeft {
+	float: left;
+	margin-top: 5px;
+	width: 410px;
+	padding: 10px 10px 10px 10px;
+}
+
+.contentRight {
+	float: right;
+	margin-top: 5px;
+	width: 450px;
+	padding: 10px 10px 10px 10px;
+}
+
+
+#userInfo {
+	text-align:right;
+}
+
+#foot {
+	clear: both;
+	height: 20px;
+	padding-top: 0px;
+	color: #FFFFFF;
+	margin: 0;
+	background: #144500;
+	border-top: dotted 1px #333333;
+}
+
+#content h1 {
+	font-size: 18px;
+	color: #247800;
+}
+
+#content h2 {
+	font-size: 14px;
+	color: #247800;
+}
+
+.validator {
+  background: #FF9999;
+}
+div.bubblehelp {
+  width: 156px;
+  height: 100px;
+  color: black;
+  background: url('bubble3.png') no-repeat transparent;
+}
+div.bubblehelp div {
+  margin-top: 8px;
+  margin-left: 20px;
+}
+
+
+.workDialog label, .workDialog input {
+	display: block;
+	width: 150px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.workDialog label {
+	text-align: right;
+	padding-right: 20px;
+}
+
+.workDialog br {
+	clear: left;
+}
+
+.imageselected {
+	visibility: hidden;
+}
